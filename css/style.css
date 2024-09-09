@@ -355,6 +355,14 @@ a:hover {
     color: #fff;
 }
 
+.nav > li > ul {
+    display: block !important; /* Ensures that the submenu is always displayed */
+}
+
+.nav > li > ul > li > ul {
+    display: block !important; /* Ensures that nested submenus are also always displayed */
+}
+
 .navbar-inverse {
     background-color: #030303;
     border: 0;

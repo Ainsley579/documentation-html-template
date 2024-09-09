@@ -112,7 +112,20 @@
                         <ul class="nav">
                             <li><a href="#line1">Background</a></li>
                             <li><a href="#line2">Design Patterns</a></li>
-                            <li><a href="#line3">Workshop</a></li>
+                            <li><a href="#line3">Workshop</a>
+                                <ul class="nav">
+                                    <li><a href="#line3_1">Goals of the workshop </a></li>
+                                    <li><a href="#line3_2">Procedure of the workshop </a></li>
+                                    <li><a href="#line3_3">Goals of the interview </a></li>
+                                    <li><a href="#line3_4">Questions of the interview </a>
+                                        <ul class="nav">
+                                            <li><a href="#line3_4_1" style="font-size: small; padding-left: 50px">Strategy Reflection</a></li>
+                                            <li><a href="#line3_4_2" style="font-size: small; padding-left: 50px">Implementation & Usability</a></li>
+                                            <li><a href="#line3_4_3" style="font-size: small; padding-left: 50px">Future Considerations</a></li>
+                                        </ul>
+                                    </li>
+                                </ul> 
+                            </li>
                             <li><a href="#line4">Coding Results</a></li>
                                 <!-- <ul class="nav">
                                     <li><a href="#line7_1">General Options</a></li>
@@ -182,7 +195,26 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <div id="design-content">
+                            <h4 id="line3_1">Goals of the workshop</h4>
+                            <div id="workshop-content-1">
+                            </div>
+                            <h4 id="line3_2">Procedure of the workshop</h4>
+                            <div id="workshop-content-2">
+                            </div>
+                            <h4 id="line3_3">Goals of the interview</h4>
+                            <div id="workshop-content-3">
+                            </div>
+                            <h4 id="line3_4">Questions of the interview</h4>
+                            <div id="workshop-content-4">
+                                <h5 id="line3_4_1"> <i><u> Strategy Reflection</u></i></h5>
+                                <div id="workshop-content-4-1">
+                                </div>
+                                <h5 id="line3_4_2"> <i><u> Implementation and Usability</u></i></h5>
+                                <div id="workshop-content-4-2">
+                                </div>
+                                <h5 id="line3_4_3"> <i><u> Future Considerations</u></i></h5>
+                                <div id="workshop-content-4-3">
+                                </div>
                             </div>
                             <!-- end col -->
                         </div>
@@ -191,7 +223,7 @@
                     </section>
                     <!-- end section -->
 
-                    <section id="line3" class="section">
+                    <section id="line4" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
@@ -203,7 +235,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <div id="design-content">
+                            <div id="coding-content">
                             </div>
                             <!-- end col -->
                         </div>
@@ -251,6 +283,20 @@
         marked.parse('The integration of Artificial Intelligence (AI) into healthcare has catalyzed significant advancements in patient care, offering tools for enhanced diagnostic accuracy and personalized treatment. However, the full potential of AI is contingent upon the design of effective Human-AI (HAI) interfaces that healthcare professionals use to interact with AI technologies.\n\nThe field of Human-Computer Interaction (HCI) has extensively explored user interface design, providing foundational principles that emphasize user control, reduced memory load, and consistency. Adapting these principles to the complexities of AI in healthcare remains a challenge, with a distinct gap between high-level guidelines and their practical application in medical settings.\n\nThis study addresses this gap by proposing specific design patterns for HAI interfaces in healthcare. These patterns aim to convert theoretical HCI principles into practical, actionable solutions that enhance user interaction with AI systems, thereby facilitating more efficient and effective healthcare delivery.');
         document.getElementById('design-content').innerHTML =
         marked.parse('');
+        document.getElementById('workshop-content-1').innerHTML =
+        marked.parse('1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n');
+        document.getElementById('workshop-content-2').innerHTML =
+        marked.parse('1. Introduce our design patterns with examples. (30 min)\n2. Ask participants to explore and familiarize themselves with the design patterns. (15 min)\n3. Ask participants to re-design the mock-up on Miro or Figma for one medical HAI systems they have designed before through our design patterns. (40 min)\n4. Make participants discuss with peers and draw further conclusions. (10 min)\n5. Ask participants to introduce their mock-up and design rationale and reflect on their usage of our design patterns, design choices and consideration, and design challenges based on our interview questions. (20 min)\n6. Collect participants’ feedback on the usability of our design patterns. (5 min)\n');
+        document.getElementById('workshop-content-3').innerHTML =
+        marked.parse('1. Explore usage strategies: Understand how participants plan to implement the design patterns if they choose to use them.\n2. Evaluate the usability of design patterns: Determine whether our design patterns can assist participants in building their medical HAI systems.\n 3.	Identify additional opportunities: Investigate whether there are other possibilities that could benefit participants, to inform our future work.\n');
+        document.getElementById('workshop-content-4-1').innerHTML =
+        marked.parse('1. How did you incorporate these patterns into your design?\n2. Were there any trade-offs you had to consider?\n');
+        document.getElementById('workshop-content-4-2').innerHTML =
+        marked.parse('3. Do you think you have refined your system through our design patterns? If so, in what specific aspects? \n4. Can you identify specific design patterns that you found particularly useful during your design process?\n5.	What challenges did you encounter in applying these design patterns?\n6.	What specific outcomes or improvements do you anticipate as a result of using these design patterns?\n');
+        document.getElementById('workshop-content-4-3').innerHTML =
+        marked.parse('7.	Do you have found some new design patterns during your design process?\n8. What dimension do you think are missing from our current design patterns?\n 9. How do you envision the evolution of design patterns for medical HAI systems in the future?\n');
+        document.getElementById('coding-content').innerHTML =
+        marked.parse('1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n1. Re-design a medical HAI system you previously designed.\n2. Reflect the usage of our design patterns after the design.\n');
     </script>
 
 </body>
